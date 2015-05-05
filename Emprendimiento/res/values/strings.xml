@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emprende</string>
+    <string name="aviso"></string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_noticias">Noticias</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_Menu">Menu</string>
+    <string name="app_id">1386905758248746</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="sin_internet1">Estás sin conexión</string>
+    <string name="sin_internet2">Esta parte de la app no esta disponible sin conexión, por favor conéctate para seguir disfrutando</string>
+
+    <!-- Registro -->
+    <string name="lblTitulo">Registro</string>
+    <string name="toastCamposIncompletos">Campos Incompletos</string>
+    <string name="txtNombre">Nombre Completo</string>
+    <string name="txtEmail">Correo electronico</string>
+    <string name="txtContrasena">Contraseña</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="txtPerfil">Perfil</string>
+
+    <!-- Login -->
+    <string name="titulo_login">U caldas EMPRENDE</string>
+    <string name="email">Email</string>
+    <string name="pasword">Contraseña</string>
+    <string name="toastRegistroCompleto">Bien te registraste ahora inicia sesion</string>
+    <string name="toastRegistroIncompleto">Registro rechazado verifica tus datos</string>
+    <string name="title_activity_menu_global">MenuGlobal</string>
+    <string name="Registro">Registro</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Olvido">¿olvido su contraseña?</string>
+
+    <!-- Menu Global -->
+    <string name="titulo_menu">Menú</string>
+    <string name="informacion">Informacion</string>
+    <string name="noticias">Noticias</string>
+    <string name="preguntas">Preguntas y Aportes</string>
+    <string name="emprendimientos">Emprendimientos</string>
+    <string name="vendo">Vendo</string>
+    <string name="canvas">Canvas</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="salir">Salir</string>
+    <string name="title_activity_informacion">Informacion</string>
+
+    <!-- Informacion -->
+    <string name="contacto">Contacto</string>
+    <string name="descripcion">La unidad de emprendimiento de la Universidad de Caldas se encuentra en la calle 65 No 26 10 Edificio Administrativo Teléfono:8781500 ext 11648</string>
+    <string name="equipo">Equipo Emprendedor</string>
+    <string name="director">Juan Felipe Vanegas Marin \nNúmero: 3216457892 \nE-mail: director.emprendimiento@\nucaldas.edu.co</string>
+    <string name="luz">Luz Estella Rios Sanchez \nNúmero: 3104150581 \nE-mail: luz.rios_s@\nucaldas.edu.co</string>
+    <string name="pacho">Luis Francisco Rojas Benítez \nNúmero: 3117677715 \nE-mail: asesor.emprender@\nucaldas.edu.co</string>
+    <string name="lore">Leidy Lorena Giraldo  \nNúmero: 8781500 ext. 11645 \nE-mail: lorena.giraldo_s@\nucaldas.edu.co</string>
+    <string name="ubicacion">Ubicacion</string>
+
+    <!-- Noticias -->
+    <string name="Noticias">Noticias</string>
+    <string name="EjemploFecha">2014</string>
+    <string name="title_activity_preguntas_aportes">PreguntasAportes</string>
+    <string name="title_activity_pestana_preguntas">PestanaPreguntas</string>
+    <string name="title_activity_pestana_aportes">PestanaAportes</string>
+    <string name="title_activity_detalle_noticia">Detalle_noticia</string>
+    <string name="title_activity_vendo">Vendo</string>
+    <string name="title_activity_respuestas">Respuestas</string>
+    <string name="title_activity_pestana_aportess">PestanaAportess</string>
+    <string name="title_activity_pregunta">Pregunta</string>
+    <string name="title_activity_aporte">Aporte</string>
+
+    <!-- Ventas -->
+    <string name="Ventas_titulo">Ventas</string>
+    <string name="Ventas_label_ingresar">Publicar venta</string>
+    <string name="Ventas_label_contactar">Contactar con vendedor</string>
+    <string name="Ventas_label_ingresar_recurso">Ingresa tu recurso aqui, detalles, precio, numero de domicilio, url de pagina.. etc</string>
+
+    <!-- Pregunta -->
+    <string name="titulo_spinner">Seleccione una categoria:</string>
+
+    <string-array name="tipo_pregunta">
+        <item>Busco Aliados</item>
+        <item>Busco Recursos</item>
+        <item>Como lo vendo</item>
+        <item>A quien le vendo</item>
+        <item>Quien conoce a</item>
+    </string-array>
+    
+    <!-- Canvas -->
+    <string name="item_canvas">Item canvas</string>
+    <string name="titulo_spncolor">Seleccione un color:</string>
+
+    <string-array name="color">
+        <item>Normal</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Verde</item>
+    </string-array>
+
+    <string name="title_activity_respuesta">Respuesta</string>
+    <string name="title_activity_cuenta">Cuenta</string>
+    <string name="title_activity_nuevo_item">Nuevo Item</string>
+    
+    <!-- Registro proyecto -->
+    <string name="TipoProyecto">Tipo de proyecto</string>
+    <string name="TituloRegistroProyecto">Emprendimiento</string>
+    <string name="NombreProyecto">Nombre del proyecto</string>
+    <string name="DescripcionProyecto">Descripcion del proyecto</string>
+</resources>

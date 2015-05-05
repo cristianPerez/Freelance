@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".Aporte" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/parte_de_arriba_registro"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:id="@+id/lblTituloViewAporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:text="Aporte"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textSize="23sp" >
+
+        </TextView>
+        
+        
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Titulo"
+        android:inputType="textPersonName"
+        android:padding="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Descripción"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnAportar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/green4"
+        android:onClick="aporte"
+        android:text="Aportar"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
+<!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/layout/aporte.xml -->

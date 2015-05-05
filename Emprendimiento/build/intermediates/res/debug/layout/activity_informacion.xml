@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Informacion" 
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/parte_de_arriba_registro"
+        android:orientation="horizontal">
+        
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_atras"
+            android:layout_weight="15"
+            android:onClick="atras">
+        </ImageView>
+        
+        <TextView
+            android:id="@+id/tituloapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:text="@string/informacion"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="23sp" >
+
+        </TextView>
+        
+        <ImageView
+            android:id="@+id/MenuInflado" 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_opciones"
+            android:layout_weight="15"
+            android:onClick="atras">
+        </ImageView>
+        
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+            
+			 <TextView
+			    android:id="@+id/equipoEmprendedor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/equipo"
+                android:textSize="25sp" 
+                android:textColor="#7b7e81"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/descUnidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:textSize="15sp"
+                android:text="@string/descripcion" 
+                android:textColor="#7b7e81"/>
+            
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                
+                <ImageView
+                    android:layout_width="94dp"
+                    android:layout_height="147dp"
+                    android:src="@drawable/juan"
+                    android:layout_weight="30" />
+                
+                <TextView
+                    android:id="@+id/descJuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/director"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_weight="70"
+                    android:textColor="#7b7e81"
+                     android:textSize="15sp"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                
+                <TextView
+                    android:id="@+id/descLuz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/luz"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_weight="70"
+                    android:textColor="#7b7e81"
+                     android:textSize="15sp"/>
+                
+                <ImageView
+                    android:layout_width="94dp"
+                    android:layout_height="147dp"
+                    android:src="@drawable/luz"
+                    android:layout_weight="30" />
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                
+                <ImageView
+                    android:layout_width="94dp"
+                    android:layout_height="147dp"
+                    android:src="@drawable/pacho"
+                    android:layout_weight="30" />
+                
+                <TextView
+                     android:id="@+id/descPacho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/pacho"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_weight="70"
+                    android:textColor="#96989a"
+                     android:textSize="15sp"/>
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                
+                <TextView
+                     android:id="@+id/descLore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/lore"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_weight="70"
+                    android:textColor="#96989a"
+                     android:textSize="15sp"/>
+                
+                <ImageView
+                    android:layout_width="94dp"
+                    android:layout_height="147dp"
+                    android:src="@drawable/lore"
+                    android:layout_weight="30" />
+                
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout><!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/layout/activity_informacion.xml -->

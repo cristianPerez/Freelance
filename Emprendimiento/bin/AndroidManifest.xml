@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emprende"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <!-- Acceso a cuentas de google -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- /* Acceso a internet*/ -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- /* Evitar que el celular entre en reposo para que lleguen la notificaciones*/ -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- /* recibir notificaciones PUSH del servicio GCM*/ -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- *Si el dispositivo sobre el que estamos ejecutando la aplicación dispone de una versión inferior 4.1 (API 16)*/ -->
+    <uses-permission
+        android:name="com.emprende.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.emprende.permission.C2D_MESSAGE" />
+    <!-- /* Acceso a vibracion*/ -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- /* Acceso a Red*/ -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.emprende.Inicio"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emprende.Noticias"
+            android:label="@string/title_activity_noticias"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.LogIn"
+            android:label="@string/title_activity_log_in"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.Menu"
+            android:label="@string/title_activity_Menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.Registro"
+            android:label="@string/title_activity_registro"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.recursos.Notificacion"
+            android:label="@string/title_activity_noticias"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.emprende" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.emprende.GCMIntentService" />
+
+        <activity
+            android:name="com.emprende.MenuGlobal"
+            android:label="@string/title_activity_menu_global"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.Informacion"
+            android:label="@string/title_activity_informacion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.emprende.Canvas"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.emprende.ItemCanvas"
+            android:label="@string/item_canvas"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.emprende.PreguntasAportes"
+            android:label="@string/title_activity_preguntas_aportes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.PestanaPreguntas"
+            android:label="@string/title_activity_pestana_preguntas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.e3mprendimiento.PestanaAportes"
+            android:label="@string/title_activity_pestana_aportes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.Detalle_noticia"
+            android:label="@string/title_activity_detalle_noticia"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.Vendo"
+            android:label="@string/title_activity_vendo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.Respuestas"
+            android:label="@string/title_activity_respuestas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.PestanaAportes"
+            android:label="@string/title_activity_pestana_aportess"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.Pregunta"
+            android:label="@string/title_activity_pregunta"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.emprende.Aporte"
+            android:label="@string/title_activity_aporte"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.emprende.Respuesta"
+            android:label="@string/title_activity_respuesta"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.emprende.Cuenta"
+            android:label="@string/title_activity_cuenta"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.emprende.Ventas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.emprende.Detalle_venta"
+            android:label="@string/Ventas_label_contactar"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.emprende.Venta"
+            android:label="@string/Ventas_label_ingresar"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.emprende.NuevoItem"
+            android:label="@string/title_activity_nuevo_item"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.emprende.Sin_internet"
+            android:label="@string/aviso">
+        </activity>
+        <activity
+            android:name="com.emprende.Proyecto"
+            android:label="@string/aviso">
+        </activity>
+    </application>
+
+</manifest>

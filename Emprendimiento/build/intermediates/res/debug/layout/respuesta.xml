@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".Respuesta" >
+
+    <EditText
+        android:id="@+id/txtRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Ingresa tu respuesta aqui"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnResponder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/fondo_btn_verde"
+        android:onClick="responder"
+        android:text="Responder"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
+<!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/layout/respuesta.xml -->

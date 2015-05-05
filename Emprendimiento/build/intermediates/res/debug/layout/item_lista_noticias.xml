@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnrLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">    
+      
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="85"
+        android:background="@android:color/white">
+        
+        <TextView
+        android:id="@+id/lblTituloNoticia"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/action_settings"
+        android:textColor="#222222"
+        android:padding="5dp"/>
+        
+        <TextView 
+            android:id="@+id/fechaNoti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            />
+    </LinearLayout>
+      
+   <LinearLayout android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       android:layout_weight="15"
+       android:background="@android:color/white"
+       android:padding="5dp">
+       
+       <ImageView
+       android:id="@+id/hoja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        </ImageView>
+       
+   </LinearLayout>  
+   
+</LinearLayout><!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/layout/item_lista_noticias.xml -->

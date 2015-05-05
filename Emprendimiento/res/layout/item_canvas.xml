@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e8e9"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/parte_de_arriba_registro"
+        android:orientation="horizontal" >
+        
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_atras"
+            android:layout_weight="15"
+            android:onClick="atras">
+        </ImageView>
+        
+        <TextView
+            android:id="@+id/lblItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:text="Item"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textSize="23sp" >
+
+        </TextView>
+        
+        <ImageView
+            android:id="@+id/MenuInflado" 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_opciones"
+            android:layout_weight="15">
+        </ImageView>
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lstComponentes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="70"
+        android:background="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:paddingTop="30dp" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/bntNuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/fondobtn"
+        android:onClick="nuevo"
+        android:text="Nuevo item" />
+
+</LinearLayout>

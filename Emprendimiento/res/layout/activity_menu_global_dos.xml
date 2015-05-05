@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuGlobal" 
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/fondo_verde"
+    android:orientation="vertical">
+    
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal" >
+        
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/herramienta1"
+            android:layout_weight="15"
+            android:onClick="cuenta">
+        </ImageView>
+        
+        <TextView
+            android:id="@+id/tituloapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:text="@string/titulo_menu"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" >
+
+        </TextView>
+        
+        <ImageView
+            android:id="@+id/btnActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/boton_actualizar"
+            android:onClick="actualizar"
+            android:src="@drawable/herramienta2" >
+
+        </ImageView>
+        
+    </LinearLayout>
+        
+        <TextView
+        android:id="@+id/emailSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/hello_world"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"/>
+        
+        <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+        
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_empredo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="proyecto"
+        />
+    
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_noticias"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:onClick="noticias"/>
+   <!--<ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_canvas"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:onClick="canvas"/>--> 
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_vendo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:onClick="ventas"/>
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_informacion"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:onClick="informacion"/>
+    
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_pregunta"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:onClick="preguntasAportes"/>
+    
+    	<LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="30dp">
+            
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/redes4"
+                android:contentDescription="@string/Entrar"
+                android:onClick="facebook" />
+            
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/redes3"
+                android:contentDescription="@string/Entrar"
+                android:onClick="twitter" />
+            
+            <ImageButton 
+                android:contentDescription="@string/Entrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/redes1"/>
+            
+            <ImageButton 
+                android:contentDescription="@string/Entrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/redes2"/>
+        </LinearLayout>	
+    
+    </LinearLayout>
+</ScrollView> 
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cuenta_parte_de_arriba"
+        android:orientation="horizontal">
+        
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_atras"
+            android:layout_weight="15"
+            android:onClick="atras">
+        </ImageView>
+        
+        
+        <TextView
+            android:id="@+id/tituloapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:text="@string/Ventas_titulo"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="23sp"
+             >
+
+        </TextView>
+        
+        <ImageView
+            android:id="@+id/MenuInflado" 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_opciones"
+            android:layout_weight="15"
+            android:onClick="atras">
+        </ImageView>
+        
+        
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="85">
+    
+    <ListView
+        android:id="@+id/lista_ventas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:overScrollMode="never"
+        >
+    </ListView>
+    
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center_horizontal">
+    
+    <ImageButton 
+        	 android:id="@+id/agregar_venta"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:background="@drawable/publicar_venta2"
+             android:onClick="Vender"/>
+    
+    </LinearLayout>
+    
+</LinearLayout>
+<!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/layout/activity_ventas.xml -->

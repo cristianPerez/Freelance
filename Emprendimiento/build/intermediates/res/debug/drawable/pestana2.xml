@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:drawable="@drawable/estcol2"
+        android:state_selected="true"></item>
+    
+    <item android:drawable="@drawable/estadisticas_blanco"></item>
+
+</selector><!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/drawable/pestana2.xml -->

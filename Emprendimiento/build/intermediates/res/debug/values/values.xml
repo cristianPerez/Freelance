@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="color">
+        <item>Normal</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Verde</item>
+    </string-array>
+    <string-array name="tipo_pregunta">
+        <item>Busco Aliados</item>
+        <item>Busco Recursos</item>
+        <item>Como lo vendo</item>
+        <item>A quien le vendo</item>
+        <item>Quien conoce a</item>
+    </string-array>
+    <!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="blue">#22a6ff</color>
+    <color name="cyan">#549aac</color>
+    <color name="fondBlue">#001940</color>
+    <color name="green1">#15b65e</color>
+    <color name="green2">#83AC2F</color>
+    <color name="green3">#30AD62</color>
+    <color name="green4">#62b395</color>
+    <color name="orange">#E7A953</color>
+    <color name="red">#CD5450</color>
+    <color name="teal">#ffae33</color>
+    <color name="verdeAlegre">#a2f1ad</color>
+    <color name="violet">#7e7eff</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="DescripcionProyecto">Descripcion del proyecto</string>
+    <string name="EjemploFecha">2014</string>
+    <string name="Entrar">Entrar</string>
+    <string name="NombreProyecto">Nombre del proyecto</string>
+    <string name="Noticias">Noticias</string>
+    <string name="Olvido">¿olvido su contraseña?</string>
+    <string name="Registro">Registro</string>
+    <string name="TipoProyecto">Tipo de proyecto</string>
+    <string name="TituloRegistroProyecto">Emprendimiento</string>
+    <string name="Ventas_label_contactar">Contactar con vendedor</string>
+    <string name="Ventas_label_ingresar">Publicar venta</string>
+    <string name="Ventas_label_ingresar_recurso">Ingresa tu recurso aqui, detalles, precio, numero de domicilio, url de pagina.. etc</string>
+    <string name="Ventas_titulo">Ventas</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">1386905758248746</string>
+    <string name="app_name">Emprende</string>
+    <string name="aviso"/>
+    <string name="canvas">Canvas</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="contacto">Contacto</string>
+    <string name="descripcion">La unidad de emprendimiento de la Universidad de Caldas se encuentra en la calle 65 No 26 10 Edificio Administrativo Teléfono:8781500 ext 11648</string>
+    <string name="director">Juan Felipe Vanegas Marin \nNúmero: 3216457892 \nE-mail: director.emprendimiento@\nucaldas.edu.co</string>
+    <string name="email">Email</string>
+    <string name="emprendimientos">Emprendimientos</string>
+    <string name="equipo">Equipo Emprendedor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="informacion">Informacion</string>
+    <string name="item_canvas">Item canvas</string>
+    <string name="lblTitulo">Registro</string>
+    <string name="lore">Leidy Lorena Giraldo  \nNúmero: 8781500 ext. 11645 \nE-mail: lorena.giraldo_s@\nucaldas.edu.co</string>
+    <string name="luz">Luz Estella Rios Sanchez \nNúmero: 3104150581 \nE-mail: luz.rios_s@\nucaldas.edu.co</string>
+    <string name="noticias">Noticias</string>
+    <string name="pacho">Luis Francisco Rojas Benítez \nNúmero: 3117677715 \nE-mail: asesor.emprender@\nucaldas.edu.co</string>
+    <string name="pasword">Contraseña</string>
+    <string name="preguntas">Preguntas y Aportes</string>
+    <string name="salir">Salir</string>
+    <string name="sin_internet1">Estás sin conexión</string>
+    <string name="sin_internet2">Esta parte de la app no esta disponible sin conexión, por favor conéctate para seguir disfrutando</string>
+    <string name="title_activity_Menu">Menu</string>
+    <string name="title_activity_aporte">Aporte</string>
+    <string name="title_activity_cuenta">Cuenta</string>
+    <string name="title_activity_detalle_noticia">Detalle_noticia</string>
+    <string name="title_activity_informacion">Informacion</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_menu_global">MenuGlobal</string>
+    <string name="title_activity_noticias">Noticias</string>
+    <string name="title_activity_nuevo_item">Nuevo Item</string>
+    <string name="title_activity_pestana_aportes">PestanaAportes</string>
+    <string name="title_activity_pestana_aportess">PestanaAportess</string>
+    <string name="title_activity_pestana_preguntas">PestanaPreguntas</string>
+    <string name="title_activity_pregunta">Pregunta</string>
+    <string name="title_activity_preguntas_aportes">PreguntasAportes</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_respuesta">Respuesta</string>
+    <string name="title_activity_respuestas">Respuestas</string>
+    <string name="title_activity_vendo">Vendo</string>
+    <string name="titulo_login">U caldas EMPRENDE</string>
+    <string name="titulo_menu">Menú</string>
+    <string name="titulo_spinner">Seleccione una categoria:</string>
+    <string name="titulo_spncolor">Seleccione un color:</string>
+    <string name="toastCamposIncompletos">Campos Incompletos</string>
+    <string name="toastRegistroCompleto">Bien te registraste ahora inicia sesion</string>
+    <string name="toastRegistroIncompleto">Registro rechazado verifica tus datos</string>
+    <string name="txtContrasena">Contraseña</string>
+    <string name="txtEmail">Correo electronico</string>
+    <string name="txtNombre">Nombre Completo</string>
+    <string name="txtPerfil">Perfil</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="vendo">Vendo</string>
+    <!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+</resources>

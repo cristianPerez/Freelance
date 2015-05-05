@@ -1,0 +1,128 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalle_noticia"
+    android:orientation="vertical"
+    android:background="#e7e8e9">
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/parte_de_arriba_registro"
+        android:orientation="horizontal">
+        
+       
+        <ImageView
+            android:contentDescription="@string/Entrar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_atras"
+            android:layout_weight="15"
+            android:onClick="atras">
+            
+        </ImageView>
+        
+        <TextView
+            android:id="@+id/fecha_noticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:text="@string/EjemploFecha"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp">
+        </TextView>
+        
+        <ImageView
+            android:id="@+id/masnavbar" 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/masnavbar"
+            android:layout_weight="15"
+            android:onClick="vermas">
+        </ImageView>
+        
+    </LinearLayout>
+   
+   <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+   
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        
+        <TextView
+            android:id="@+id/tituNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/Noticias"
+            android:textColor="#96989a"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp" 
+            android:layout_marginBottom="10dp"
+            android:layout_weight="10">
+        </TextView>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+             android:id="@+id/imgNoticia"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:src="@drawable/nophoto" 
+             android:layout_weight="70"
+             android:layout_gravity="center_horizontal">
+            </ImageView>
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleLargeInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+            
+        </RelativeLayout>
+
+        
+         <TextView
+            android:id="@+id/desNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/Noticias"
+            android:textColor="#96989a"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" 
+            android:layout_marginBottom="10dp"
+            android:layout_weight="10">
+        </TextView>
+        
+         <ImageButton android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:background="@drawable/explorar"
+             android:layout_weight="10"
+             android:onClick="vermas"
+             android:layout_marginBottom="20dp"/>
+        
+    </LinearLayout>
+    
+    </ScrollView>
+
+</LinearLayout>

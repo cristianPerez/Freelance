@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e7e8e9">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cuenta_parte_de_arriba"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:contentDescription="@string/Entrar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_atras"
+            android:layout_weight="15"
+            android:onClick="atras">
+        </ImageView>
+        
+        
+        <TextView
+            android:id="@+id/tituloapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:text="@string/TituloRegistroProyecto"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="23sp"
+             >
+
+        </TextView>
+        
+        <ImageView
+            android:id="@+id/MenuInflado" 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/boton_opciones"
+            android:layout_weight="15"
+            android:onClick="atras">
+        </ImageView>
+        
+        
+    </LinearLayout>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+     <LinearLayout android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+        
+    <EditText 
+        android:id="@+id/titulo_poyecto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nombre_proyecto"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/NombreProyecto"/>
+    
+    <EditText 
+        android:id="@+id/descripcion_proyecto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/descripcion_proyecto"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/DescripcionProyecto"
+        />
+    <!--
+    <TextView 
+        android:id="@+id/tipo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/TipoProyecto"
+        />
+
+      <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        >
+        
+        <CheckBox
+        android:id="@+id/publico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Publico"/>
+    
+    <CheckBox
+        android:id="@+id/privado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Privado" />
+        
+    </LinearLayout>-->
+    
+    <ImageButton 
+        android:contentDescription="@string/Entrar"
+        android:id="@+id/btn_proyecto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/crear_proyecto"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="publicarProyecto"
+        />
+    </LinearLayout>
+     </ScrollView>
+    
+</LinearLayout><!-- From: file:/Users/Cristian/Documents/workspace/Emprendimiento/res/layout/activity_proyecto1.xml -->
