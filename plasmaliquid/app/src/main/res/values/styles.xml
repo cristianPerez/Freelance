@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="spinnerPatologia" parent="@android:style/Widget.ListView.DropDown">
+
+        <item name="android:height">3dp</item>
+        <item name="android:dividerHeight">3dp</item>
+        <item name="android:divider">@color/white</item>
+
+    </style>
+
+</resources>

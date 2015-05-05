@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue1">#00ccff</color>
+    <color name="blue2">#1062ac</color>
+    <color name="white">#ffffff</color>
+    <color name="whiteTransparen">#26ffffff</color>
+    <color name="gray">#666666</color>
+    <color name="black">#000000</color>
+    <color name="blackTransparent">#99000000</color>
+    <color name="redTitle">#E73657</color>
+
+
+    <!-- Botones menu -->
+    <color name="btn1">#165491</color>
+    <color name="btn2">#00aff0</color>
+    <color name="btn3">#00ccff</color>
+    <color name="btn4">#6599ff</color>
+    <color name="btn5">#009933</color>
+    <color name="btn6">#33cc33</color>
+    <color name="btn7">#99cc33</color>
+    <color name="btn8">#cccc33</color>
+    <color name="btn9">#606062</color>
+    <color name="btn10">#cc9933</color>
+    <color name="btn11">#ff9933</color>
+    <color name="btn12">#ff6600</color>
+
+    <!-- Estados lista de vehiculos-->
+    <color name="inactivo">#CF676F</color>
+    <color name="activo">#64B058</color>
+    <color name="stand_bye">#4A6B8A</color>
+    <color name="mantenimiento">#D4AA6A</color>
+
+    <!-- FIRST SCREEN -->
+    <color name="headerTools">#7bc7bd</color>
+    <color name="headerToolsTransparent">#807bc7bd</color>
+    <color name="greenBar">#249da6</color>
+
+
+</resources>

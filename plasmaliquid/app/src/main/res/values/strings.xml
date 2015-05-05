@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">plasmaliquid</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Screen one -->
+    <string name="titleHeader">Complete el test</string>
+    <string name="weight">Peso</string>
+    <string name="exampleWeight">70 kg</string>
+    <string name="titleSex">Sexo</string>
+    <string name="titleFemale">Femenino</string>
+    <string name="titleMale">Masculino</string>
+
+    <string-array name="patologia">
+        <item>PATOLOGIA</item>
+        <item>QUIRÚRGICA</item>
+        <item>MÉDICA</item>
+    </string-array>
+
+    <string name="treiztQuestion">Referente anatómico del ligamento de treizt</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnDeficit">Deficit y perdidas</string>
+    <string name="txtPorEncima">Por encima</string>
+    <string name="txtPorDebajo">Por debajo</string>
+
+</resources>
